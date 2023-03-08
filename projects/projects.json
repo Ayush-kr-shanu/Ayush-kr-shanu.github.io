@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Mytheresa.com",
+    "desc": "Basic HTML CSS JS Project of an Ecommerce website and It is a solo project completed in 5 days login signup sorting localstorage are the main features.",
+    "image": "mytheresa",
+    "category": "Front-end Development",
+    "links": {
+      "view": "https://aquamarine-gnome-8fd34c.netlify.app",
+      "code": "https://github.com/Ayush-kr-shanu/faded-bee-315-Mytheresa.com-"
+    }
+  },
+  {
+    "name": "Carter's.com",
+    "desc": "This is a collaborative project of 5 people and I am the team leader. Main features is json, Login signup, Localstorage dynamic nav bar etc. Tech Stack is HTML CSS JS JSON",
+    "image": "carters",
+    "category": "Full stack web Development",
+    "links": {
+      "view": "https://adorable-raindrop-e0f0b2.netlify.app",
+      "code": "https://github.com/Ayush-kr-shanu/coordinated-crib-6423-carters.com"
+    }
+  },
+  {
+    "name": "Tripadvisior",
+    "desc": "Basic HTML CSS JS NodeJs ExpressJs Used as Techstacks in this  project. It is solo project completed in 5 days. ",
+    "image": "Tripadvisor",
+    "category": "Full stack web Development",
+    "links": {
+      "view": "https://curious-cactus-16d1c5.netlify.app",
+      "code": "https://github.com/Ayush-kr-shanu/trim-pollution-4883-Tripadvisior"
+    }
+  }
+]
