@@ -460,7 +460,7 @@ header .navbar ul li a:hover {
 
 /* skills section starts */
 .skills {
-  min-height: 90vh;
+  min-height: 80vh;
   background: linear-gradient(to bottom, #57059e, #4a00e0);
 }
 .skills h2 {
@@ -758,6 +758,68 @@ header .navbar ul li a:hover {
   transform: translateX(5px);
 }
 /* work section ends */
+
+/* Git Status css starts */
+.github {
+  background: linear-gradient(to bottom, #3ebb18da, #98e46d);
+  color: #fff;
+  padding: 6rem 0;
+  }
+  
+  .github h1.heading {
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 4rem;
+  }
+  
+  .github h1.heading i {
+  font-size: 4rem;
+  margin-right: 1rem;
+  }
+  
+  .github h1.heading span {
+  color: rgb(255, 230, 0);
+  }
+  
+  .github .github-stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin: 0 auto;
+  max-width: 100%;
+  }
+  
+  .github .github-stats div {
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  height: 40rem;
+  width: 100rem;
+  }
+  
+  .github .github-stats div img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  }
+  
+  .github .github-stats div:nth-child(2) {
+  margin: 2rem 0;
+  }
+  
+  @media (max-width: 768px) {
+  .github h1.heading {
+  font-size: 3rem;
+  }
+  
+  .github .github-stats div {
+  height: 25rem;
+  width: 25rem;
+  }
+  }
+/* Git status ends here */
 
 /* experience section starts */
 .experience .timeline {
