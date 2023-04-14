@@ -1,12 +1,22 @@
 [
   {
-    "name": "Mytheresa.com",
-    "desc": "Basic HTML CSS JS Project of an Ecommerce website and It is a solo project completed in 5 days login signup sorting localstorage are the main features.",
-    "image": "mytheresa",
-    "category": "Front-end Development",
+    "name": "Code-Editor",
+    "desc": "HTML CSS JS used for Frontend and NodeJs ExpressJs socektIo and MongoDb for Backend Used as Techstacks in this  project. It is Collaborative project completed in 5 days. ",
+    "image": "Dexter",
+    "category": "Full stack web Development",
     "links": {
-      "view": "https://aquamarine-gnome-8fd34c.netlify.app",
-      "code": "https://github.com/Ayush-kr-shanu/faded-bee-315-Mytheresa.com-"
+      "view": "https://dexter-lab-142.netlify.app/",
+      "code": "https://github.com/Ayush-kr-shanu/Dexter-Code-editor"
+    }
+  },
+  {
+    "name": "Tripadvisior",
+    "desc": "Basic HTML CSS JS NodeJs ExpressJs Used as Techstacks in this  project. It is solo project completed in 5 days. ",
+    "image": "Tripadvisor",
+    "category": "Full stack web Development",
+    "links": {
+      "view": "https://curious-cactus-16d1c5.netlify.app",
+      "code": "https://github.com/Ayush-kr-shanu/trim-pollution-4883-Tripadvisior"
     }
   },
   {
@@ -20,13 +30,13 @@
     }
   },
   {
-    "name": "Tripadvisior",
-    "desc": "Basic HTML CSS JS NodeJs ExpressJs Used as Techstacks in this  project. It is solo project completed in 5 days. ",
-    "image": "Tripadvisor",
-    "category": "Full stack web Development",
+    "name": "Mytheresa.com",
+    "desc": "Basic HTML CSS JS Project of an Ecommerce website and It is a solo project completed in 5 days login signup sorting localstorage are the main features.",
+    "image": "mytheresa",
+    "category": "Front-end Development",
     "links": {
-      "view": "https://curious-cactus-16d1c5.netlify.app",
-      "code": "https://github.com/Ayush-kr-shanu/trim-pollution-4883-Tripadvisior"
+      "view": "https://aquamarine-gnome-8fd34c.netlify.app",
+      "code": "https://github.com/Ayush-kr-shanu/faded-bee-315-Mytheresa.com-"
     }
   }
 ]
