@@ -70,7 +70,7 @@ header {
   justify-content: space-between;
   padding: 1.7rem 10%;
   height: 6.5rem;
-  background-color: #fff;
+  background-color: #3d3b3b;
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.3);
 }
 section {
@@ -87,16 +87,18 @@ section {
   color: rgb(115, 3, 167);
 }
 header .logo {
-  font-size: 1.9rem;
+  font-size: 2rem;
   font-weight: 800;
   text-decoration: none;
-  color: #0e2431;
+  /* color: #128cd3; */
+  color: #fc8c05;
 }
 header .logo i {
   font-size: 2.2rem;
 }
 header .logo:hover {
-  color: #fc8c05;
+  /* color: #fc8c05; */
+  color: #128cd3;
 }
 header .navbar ul {
   list-style: none;
@@ -109,7 +111,7 @@ header .navbar li {
 }
 header .navbar ul li a {
   font-size: 1.57rem;
-  color: #0e2431;
+  color: #2bbb73;
   font-weight: 600;
   text-decoration: none;
   letter-spacing: 0.04rem;
@@ -117,8 +119,8 @@ header .navbar ul li a {
 }
 header .navbar ul li a.active,
 header .navbar ul li a:hover {
-  color: #011aff;
-  border-bottom: 0.2rem solid #011aff;
+  color: #89f343;
+  border-bottom: 0.2rem solid #000000;
   padding: 0.5rem 0;
 }
 /* navbar ends */
@@ -186,6 +188,7 @@ header .navbar ul li a:hover {
   gap: 1.5rem;
   min-height: 100vh;
   align-items: center;
+  background: rgb(0, 0, 0);
 }
 .home #particles-js {
   position: absolute;
@@ -224,7 +227,7 @@ header .navbar ul li a:hover {
 .home .content h2 {
   font-size: 5rem;
   font-weight: 800;
-  color: #002057;
+  color: #49a80a;
 }
 .home .content h2 span {
   font-size: 5rem;
@@ -233,7 +236,7 @@ header .navbar ul li a:hover {
 }
 .home .content p {
   font-size: 2.5rem;
-  color: #000;
+  color: #4fc40b;
   font-weight: 600;
   padding: 1rem 0;
 }
@@ -346,7 +349,7 @@ header .navbar ul li a:hover {
 
 /* about section starts */
 .about {
-  background: rgb(230, 226, 235);
+  background: rgb(250, 249, 250);
 }
 .about .row {
   display: flex;
@@ -562,7 +565,7 @@ header .navbar ul li a:hover {
   margin-top: 2rem;
   overflow: hidden;
   transition: 0.3s;
-  background: rgb(252, 252, 252);
+  background: rgb(113, 204, 196);
 }
 .education .box-container .box:hover {
   transform: scale(1.03);
@@ -663,7 +666,7 @@ header .navbar ul li a:hover {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   position: relative;
   overflow: hidden;
-  height: 30rem;
+  height: 35rem;
 }
 .work .box-container .box img {
   height: 100%;
@@ -761,7 +764,7 @@ header .navbar ul li a:hover {
 
 /* Git Status css starts */
 .github-stats {
-  background: linear-gradient(to bottom, #14b621, #148096);
+  background: rgb(10, 58, 46);
   min-height: 50vh;
   display: flex;
   flex-direction: column;
@@ -774,7 +777,7 @@ header .navbar ul li a:hover {
   text-align: center;
   margin-top: 3rem;
   margin-bottom: 3rem;
-  color: #070606;
+  color: #ebe2e2;
   font-family: "Nunito", sans-serif;
   font-weight: 900;
 }
@@ -835,8 +838,8 @@ header .navbar ul li a:hover {
   width: 25px;
   height: 25px;
   right: -17px;
-  background-color: rgb(255, 255, 255);
-  border: 4px solid #ff9f55;
+  background-color: rgb(230, 230, 230);
+  border: 4px solid #4fafe7;
   top: 15px;
   border-radius: 50%;
   z-index: 100;
@@ -882,7 +885,7 @@ header .navbar ul li a:hover {
   left: -16px;
 }
 .experience .content {
-  background-color: #f68c09;
+  background-color: #09f6bb;
   position: relative;
   border-radius: 6px;
 }
