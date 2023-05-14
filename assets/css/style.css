@@ -805,7 +805,36 @@ header .navbar ul li a:hover {
     max-width: 90%;
   }
 }
+.box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
 
+#github-calendar rect.day {
+  fill: white;
+}
+
+#github-calendar rect.day[data-level="1"] {
+  fill: green;
+}
+
+#github-calendar rect.day[data-level="2"] {
+  fill: green;
+}
+
+#github-calendar rect.day[data-level="3"] {
+  fill: green;
+}
+
+#github-calendar rect.day[data-level="4"] {
+  fill: green;
+}
+
+#github-calendar rect.day[data-level="5"] {
+  fill: green;
+}
 /* Git status ends here */
 
 /* experience section starts */
