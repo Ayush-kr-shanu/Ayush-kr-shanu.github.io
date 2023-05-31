@@ -74,7 +74,7 @@ header {
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.3);
 }
 section {
-  min-height: 100vh;
+  min-height: auto;
   padding: 2rem 9%;
 }
 .heading {
@@ -178,6 +178,7 @@ header .navbar ul li a:hover {
     right: 0;
   }
 }
+
 /* hamburger icon ends */
 
 /* hero section starts*/
@@ -310,7 +311,7 @@ header .navbar ul li a:hover {
   background-color: #0685da;
 }
 .social-icons a.github:hover {
-  background-color: #0e0e0e;
+  background-color: #007bb6;
 }
 .social-icons a.twitter:hover {
   background-color: #00aced;
@@ -483,7 +484,7 @@ header .navbar ul li a:hover {
 }
 .skills .container .row {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   flex-wrap: wrap;
   gap: 1.8rem;
 }
@@ -523,6 +524,23 @@ header .navbar ul li a:hover {
   }
   .skills .container .row {
     grid-template-columns: repeat(2, 1fr);
+    margin: 1rem;
+    padding: 2rem 0.2rem 2rem 0.2rem;
+    gap: 1rem;
+  }
+  .skills .container {
+    margin-top: 5px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .skills .container {
+    padding: 0;
+    margin: 0;
+  }
+  .skills .container .row {
+    grid-template-columns: repeat(4, 1fr);
     margin: 1rem;
     padding: 2rem 0.2rem 2rem 0.2rem;
     gap: 1rem;
@@ -841,6 +859,7 @@ header .navbar ul li a:hover {
 .experience .timeline {
   position: relative;
   max-width: 1200px;
+  /* min-height: 60vh; */
   margin: 0 auto;
 }
 .experience .timeline::after {
