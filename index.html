@@ -34,9 +34,13 @@
       <li><a href="#work">Projects</a></li>
       <li><a href="#experience">Experience</a></li>
       <li><a href="#contact">Contact</a></li>
-      <li title="RESUME" id="resume-button-1"><a class="nav-link resume" id="resume-link-1"
-        href="https://drive.google.com/file/d/1fBu3wKoloOXvzRR8slPNVT8uNPhpXPvn/view?usp=share_link" download="Ayush_Shanu_resume" target="_blank"><i
-            class="fa-solid fa-file-arrow-down"></i><span>Resume</span> </a></li>
+      <li title="RESUME" id="resume-button-1">
+        <a class="nav-link resume" id="resume-link-1" href="https://drive.google.com/file/d/1fBu3wKoloOXvzRR8slPNVT8uNPhpXPvn/view?usp=sharing"
+          target="_blank" rel="noopener noreferrer" download="Ayush-Shanu-resume">
+          <i class="fa-solid fa-file-arrow-down"></i>
+          <span>Resume</span>
+        </a>
+      </li>
       </ul>
   </nav>
 </header>
@@ -80,15 +84,11 @@
         <h3>I'm Ayush</h3>
         <span class="tag">Full Stack Developer</span>
         
-        <p>Welcome to my portfolio! I'm a passionate Full-Stack web developer from Sitamarhi, Bihar, India. With a Diploma in Mechanical Engineering from IIMT Greater-Noida, I've discovered my true calling in coding and creating highly functional web applications and websites.
+        <p>Welcome to my portfolio! I'm a passionate Full-Stack web developer from Sitamarhi, Bihar, India. With a Diploma in Mechanical Engineering from IIMT Greater-Noida, I have discovered my true calling in coding and creating highly functional web applications and websites. My experience at Masai has honed my skills in Full-Stack web development, allowing me to proficiently handle both the front-end and back-end of web applications.
 
-          My experience at Masai has honed my skills in Full-Stack web development, allowing me to proficiently handle both the front-end and back-end of web applications. I pay close attention to detail and prioritize user experience, resulting in visually appealing and efficient web applications that are both user-friendly and impactful.
+          I pay close attention to detail and prioritize user experience, resulting in visually appealing and efficient web applications that are both user-friendly and impactful. I specialize in Node.js, Express.js, MongoDB, MySQL, Typescript, Redis, and other skills. I have successfully built Full-Stack clones of existing web applications. I thrive on challenges and enjoy problem-solving, enabling me to develop scalable and responsive web applications tailored to my clients' specific needs.
           
-          I specialize in the Node.js, Express.js, and MongoDB, MySQL, Typescript, Redis and other skills and I've successfully built Full-Stack clones of existing web applications. I thrive on challenges and enjoy problem-solving, enabling me to develop scalable and responsive web applications tailored to my clients' specific needs.
-          
-          Apart from technical expertise, I excel in communication and collaboration, fostering effective teamwork with clients and colleagues. I'm dedicated to delivering high-quality work within timelines and always strive to exceed client expectations.
-          
-          If you're seeking a talented and motivated Full-Stack web developer for your next project, please don't hesitate to reach out. I'd be thrilled to discuss your requirements and contribute to your web development goals.</p>
+          I pay close attention to detail and prioritize user experience, resulting in visually appealing and efficient web applications that are both user-friendly and impactful. I specialize in Node.js, Express.js, MongoDB, MySQL, Typescript, Redis, and other skills. I have successfully built Full-Stack clones of existing web applications. I thrive on challenges and enjoy problem-solving, enabling me to develop scalable and responsive web applications tailored to my clients' specific needs.</p>
         
         <div class="box-container">
             <div class="box">
@@ -102,9 +102,10 @@
         </div>
         
         <div class="resumebtn">
-            <a href="./Ayush_Shanu_resume.pdf" class="btn" download="Ayush_Shanu_resume"><span>Resume</span>
-                <i class="fas fa-chevron-right"></i>
-            </a>
+          <a href="https://drive.google.com/uc?export=download&id=1fBu3wKoloOXvzRR8slPNVT8uNPhpXPvn" class="btn" download="Ayush-Shanu-resume">
+            <span>Resume</span>
+            <i class="fas fa-chevron-right"></i>
+          </a>          
         </div>
 
     </div>
@@ -193,11 +194,11 @@
 
 </div>
 
-<div class="viewall">
+<!-- <div class="viewall">
   <a href="/projects" class="btn"><span>View All</span>
     <i class="fas fa-arrow-right"></i>
 </a>
-</div>
+</div> -->
 
 </section>
 <!-- work project section ends -->
@@ -236,11 +237,11 @@
       </div>
   </div>
 
-  <div class="morebtn">
+  <!-- <div class="morebtn">
     <a href="#" class="btn"><span>View All</span>
       <i class="fas fa-arrow-right"></i>
   </a>
-  </div>
+  </div> -->
 
 </div>
 
@@ -385,6 +386,11 @@
     responsive: true,
     tooltips: true,
   });
+  
+  function downloadResume() {
+  // Open the Google Drive link in a new window
+  window.open("https://drive.google.com/uc?export=download&id=1fBu3wKoloOXvzRR8slPNVT8uNPhpXPvn", "_blank");
+}
 </script>
 </body>
 </html>
