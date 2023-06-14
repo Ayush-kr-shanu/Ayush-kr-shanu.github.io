@@ -779,7 +779,7 @@ header .navbar ul li a:hover {
   transform: translateX(5px);
 }
 
-@media (max-width: 850px) {
+@media (max-width: 950px) {
   .work .box-container .box:hover .content,
   .work .box-container .box.active .content {
     top: 25%;
