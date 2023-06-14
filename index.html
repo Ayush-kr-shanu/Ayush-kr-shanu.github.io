@@ -90,23 +90,7 @@
         <h3>I'm Ayush</h3>
         <span class="tag">Full Stack Developer</span>
 
-        <p>Welcome to my portfolio! I'm a passionate Full-Stack web developer from Sitamarhi, Bihar, India. With a
-          Diploma in Mechanical Engineering from IIMT Greater-Noida, I have discovered my true calling in coding and
-          creating highly functional web applications and websites. My experience at Masai has honed my skills in
-          Full-Stack web development, allowing me to proficiently handle both the front-end and back-end of web
-          applications.
-
-          I pay close attention to detail and prioritize user experience, resulting in visually appealing and efficient
-          web applications that are both user-friendly and impactful. I specialize in Node.js, Express.js, MongoDB,
-          MySQL, Typescript, Redis, and other skills. I have successfully built Full-Stack clones of existing web
-          applications. I thrive on challenges and enjoy problem-solving, enabling me to develop scalable and responsive
-          web applications tailored to my clients' specific needs.
-
-          I pay close attention to detail and prioritize user experience, resulting in visually appealing and efficient
-          web applications that are both user-friendly and impactful. I specialize in Node.js, Express.js, MongoDB,
-          MySQL, Typescript, Redis, and other skills. I have successfully built Full-Stack clones of existing web
-          applications. I thrive on challenges and enjoy problem-solving, enabling me to develop scalable and responsive
-          web applications tailored to my clients' specific needs.</p>
+        <p>Enthusiastic about learning and expressing new technology. An aspiring node developer with 1200+ hours of practical experience in coding and building numerous websites. Solved 700+ DSA questions. Strong ambition to work as a backend developer to produce valuable solutions.</p>
 
         <div class="box-container">
           <div class="box">
@@ -120,8 +104,8 @@
         </div>
 
         <div class="resumebtn">
-          <a href="https://drive.google.com/uc?export=download&id=1fBu3wKoloOXvzRR8slPNVT8uNPhpXPvn" class="btn"
-            download="Ayush-Shanu-resume">
+          <a href="https://drive.google.com/uc?export=download&id=1fBu3wKoloOXvzRR8slPNVT8uNPhpXPvn" class="btn"target="_blank"
+          onclick="event.preventDefault(); window.open('./Ayush-Shanu-resume.pdf', '_blank'); downloadResume();">
             <span>Resume</span>
             <i class="fas fa-chevron-right"></i>
           </a>
@@ -420,10 +404,6 @@
 
   <script src="./assets/js/script.js"></script>
   <script>
-    GitHubCalendar("#github-calendar", "Ayush-kr-shanu", {
-      responsive: true,
-      tooltips: true,
-    });
 
     function downloadResume() {
     var link = document.createElement('a');
@@ -431,6 +411,13 @@
     link.download = 'Ayush-Shanu-resume.pdf';
     link.click();
   }
+
+  $(window).on('load', function() {
+  if ($(window).width() <= 850) {
+    $('.work .box-container .box').addClass('active');
+  }
+});
+
   </script>
 </body>
 
