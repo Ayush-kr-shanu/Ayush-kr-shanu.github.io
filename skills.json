@@ -1,11 +1,15 @@
 [
     {
-        "name": "ExpressJS",
-        "icon": "https://img.icons8.com/fluency/48/000000/node-js.png"
+        "name": "Prompt Eng",
+        "icon": "https://img.icons8.com/color/48/000000/chakra-ui.png"
     },
     {
         "name": "NodeJS",
         "icon": "https://img.icons8.com/color/48/000000/nodejs.png"
+    },
+    {
+        "name": "ExpressJS",
+        "icon": "https://img.icons8.com/fluency/48/000000/node-js.png"
     },
     {
         "name": "Typecript",
@@ -22,6 +26,10 @@
     {
         "name": "MongoDB",
         "icon": "https://img.icons8.com/color/48/000000/mongodb.png"
+    },
+    {
+        "name": "React",
+        "icon": "https://img.icons8.com/office/48/000000/react.png"
     },
     {
         "name": "ChakraUI",
@@ -67,5 +75,9 @@
 
         "name": "VSCode",
         "icon": "https://img.icons8.com/fluent/48/000000/visual-studio-code-2019.png"
+    },
+    {
+        "name": "Gen AI",
+        "icon": "https://img.icons8.com/color/48/000000/chakra-ui.png"
     }
 ]
