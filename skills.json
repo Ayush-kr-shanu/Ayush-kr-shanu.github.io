@@ -12,6 +12,10 @@
         "icon": "https://img.icons8.com/fluency/48/000000/node-js.png"
     },
     {
+        "name": "Docker",
+        "icon": "https://img.icons8.com/color/48/000000/docker.png"
+    },
+    {
         "name": "Typecript",
         "icon": "https://img.icons8.com/color/48/000000/typescript.png"
     },
